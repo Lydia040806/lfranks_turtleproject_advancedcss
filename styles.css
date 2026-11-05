@@ -1,0 +1,50 @@
+body {
+  background-color: #e0f7e9;
+  font-family: Arial, sans-serif;
+  color: #1b4332;
+  margin: 0;
+}
+#container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding: 0;
+}
+#main-content {
+  display: flex;
+  gap: 30px;
+  align-items: flex-start;
+}
+#main-content > section {
+  flex: 2;
+}
+#main-content > aside {
+  flex: 1;
+  background-color: #b7e4c7;
+  padding: 15px;
+  border-radius: 8px;
+}
+.turtle-img {
+  display: block;
+  margin: 20px auto;
+  max-width: 100%;
+  width: 400px;
+  border-radius: 8px;
+}
+.side-img {
+  width: 100%;
+}
+#copyright {
+  text-align: center;
+  font-size: 0.9em;
+}
+@media (max-width: 700px) {
+  #main-content {
+    flex-direction: column;
+  }
+}
